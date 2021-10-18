@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kast is Watch Parties Made Easy</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+   <div class="container">
+        <div class="navbar">
+            <img
+              src="https://www.kastapp.co/images/kast-logo-horizontal-color-white.svg"
+              width="201"
+              alt="kast-logo"
+              id="navigation-logo"
+              class="logo-small"
+            />
+            <div class="openkast-button">
+                <a href="./blank.html">Open Kast</a>
+            </div>
+            <div class="nav-buttons">
+                <a href="./blank.html">About <i class="arrow down"></i></a>
+                <a href="./blank.html">Help <i class="arrow down"></i></a>
+                <a href="./blank.html">Community <i class="arrow down"></i></a>
+                <a href="./blank.html">Premium</a>
+            </div>
+            </div>
+            <div class="main">
+                <div class="center-block">
+                    <img src="https://www.kastapp.co/images/laptop-large-p-800.png" alt="laptop" class="center" width="610" height="356">
+                    <div class="main-title">
+                        Watch parties made easy.
+                        <br>
+                    </div>
+                    <p class="main-paragraph">
+                        Watch <strong>whatever you want</strong> with friends online: movies, TV shows, you name it. Share your screen and camera or launch content directly from Kast TV in your watch parties. Join millions of kasters today!
+                    </p>
+                    <a class="primary-button" href="./blank.html">open kast</a>
+                </div>
+            </div>
+         </div>
+     </div>
+     <div class="white-container">
+         <h2 class="white-header">Featured in</h2>
+         <div class="grid">
+             <div class="layout">
+                <img
+                src="https://www.kastapp.co/images/wired-logo.svg"
+                alt="wired-logo"
+              />
+              <img
+                src="https://www.kastapp.co/images/nerdist-logo.svg"
+                alt="nerdist-logo"
+              />
+              <img
+                src="https://www.kastapp.co/images/yahoo-finance-logo.svg"
+                alt="yahoo-finance-logo"
+              />
+              <img
+                src="https://www.kastapp.co/images/evening-standard-logo.svg"
+                alt="evening-standard-logo"
+              />
+              <img
+                src="https://www.kastapp.co/images/bbc-logo.svg"
+                alt="bbc-logo"
+              />
+              <img
+                src="https://www.kastapp.co/images/daily-mail-logo.svg"
+                alt="daily-mail-logo"
+              />
+            </div>
+            <p class="quote">
+                <em class="italic-text">"Kast has probably never been more relevant — or necessary — than it is right now."</em>
+            </p>
+         </div>
+     </div>
+     <div class="green-container">
+         <h1 class="green-header">What is Kast?</h1>
+         <div class="green-content">
+             <div class="block">
+                 <p class="green-paragraph">Looking for a place to watch movies, play, and hang out with friends? Hop onto Kast and start sharing experiences real-time!</p>
+                 <p class="green-paragraph">Up to 20 people can share their screen or camera and another 100 can watch in a party. And with Kast TV, you can now stream directly from the cloud.</p>
+                 <br>
+                 <a class="primary-button" href="./blank.html">open kast</a>
+             </div>
+         </div>
+     </div>
+     <script>
+         const navbar = document.querySelector('.navbar');
+         window.onscroll = () => {
+             if (window.scrollY > 800) {
+                 navbar.classList.add('nav-active');
+             } else {
+                 navbar.classList.remove('nav-active');
+             }
+         };
+     </script>
+</body>
+</html>
